@@ -175,7 +175,7 @@ class RentalAgency {
                     System.out.println("Customer Name: " + newCustomer.getName());
                     System.out.println("Car: " + selectedCar.getType() + " " + selectedCar.getModel());
                     System.out.println("Rental Days: " + rentalDays);
-                    System.out.printf("Total Price: $%.2f%n", totalPrice);
+                    System.out.printf("Total Price: ksh%.2f%n", totalPrice);
                     System.out.print("\nConfirm rental (Y/N): ");
                     String confirm = enter.nextLine();
                     if (confirm.equalsIgnoreCase("Y")) {
